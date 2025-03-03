@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "./styles.css";
+import "./css/readonly.css";
 
 const CustomCheckbox = ({ checked, label, onChange }) => {
   return (
@@ -26,7 +26,7 @@ export default function App() {
           <span className="instruction">Unchecked</span>
           <CustomCheckbox checked={false} label="Complete the task" onChange={() => {}} />
         </div>
-        
+
         <div className="section">
           <span className="instruction">Checked</span>
           <CustomCheckbox checked={true} label="Complete the task" onChange={() => {}} />
